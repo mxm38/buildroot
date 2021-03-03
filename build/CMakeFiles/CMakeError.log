@@ -1,0 +1,24 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/gcc-arm-none-eabi/bin/arm-none-eabi-gcc 
+Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;;;;;;;;;;;;;;;;;;;;;-fsingle-precision-constant;-fno-builtin;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;;;;;;;;;;;;;;;;;;;;;-Wall;-Wextra;;;;;;;;;;;;;;;;;;;;;-DSTM32F407xx;-DUSE_HAL_DRIVER;-DARM_MATH_CM4;-std=c11;
+Id flags:  
+
+The output was:
+1
+/usr/local/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/gcc-arm-none-eabi/bin/arm-none-eabi-g++ 
+Build flags: -mthumb;-mcpu=cortex-m4;-mfloat-abi=hard;-mfpu=fpv4-sp-d16;;;;;;;;;;;;;;;;;;;;;-fsingle-precision-constant;-fno-builtin;-ffunction-sections;-fdata-sections;-fomit-frame-pointer;;;;;;;;;;;;;;;;;;;;;-Wall;-Wextra;;;;;;;;;;;;;;;;;;;;;-DSTM32F407xx;-DUSE_HAL_DRIVER;-DARM_MATH_CM4;-std=c++14;-fno-use-cxa-atexit;-fno-exceptions;-fno-rtti
+Id flags:  
+
+The output was:
+1
+/usr/local/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
